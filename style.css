@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cfbae3 ;
+}
+.container{
+    background-color:#8cd2e4;
+    width: 48.2rem;
+    height: 21.9rem;
+    margin: 3.125rem auto;
+    border-radius: 5px;
+    color:#020000;
+    padding: 1.875rem 3.75rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+
+#txtNumber{
+    width: 17.5rem;
+    height: 2.188rem;
+    border-radius: 2px;
+    border: none;
+}
+
+#base-from{
+    width: 17.5rem;
+    height: 2.188rem;
+    border-radius: 2px;
+}
+#base-to{
+    width: 17.5rem;
+    height: 2.188rem;
+    border-radius: 2px;
+    margin-left: 5rem;
+    
+}
+#btnConvert{
+    width: 17.5rem;
+    height: 2.188rem;
+    background-color:#212121;
+    cursor: pointer;
+    color:#fff;
+    border-radius: 5px;
+    margin-left: 11.25rem;
+}
+#btnSwap{
+    width: 17.5rem;
+    height: 2.188rem;
+    background-color:#212121;
+    
+    color:#fff;
+    border: darkseagreen 0px solid;
+    border-radius: 5px;
+}
+#result{
+    width: 17.5rem;
+    height: 2.188rem;
+    border-radius: 2px;
+    border: none;
+    margin-left : 5rem; 
+}
+#convert-to{
+    margin-left:16.25rem;
+}
+#span-result{
+    margin-left:15rem;
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:756px){
+
+    html{
+        font-size: 45%;
+    }
+    .container{
+        background-color:#8cd2e4;
+        width: 48.2rem;
+        height: 21.9rem;
+        margin: 3.125rem auto;
+        border-radius: 5px;
+        color:#020000;
+        padding: 1.875rem 3.75rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+    #txtNumber{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        border: none;
+    }
+    
+    #base-from{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+    }
+    #base-to{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        margin-left: 5rem;
+        
+    }
+    #btnConvert{
+        width: 17.5rem;
+        height: 2.188rem;
+        background-color:#212121;
+        cursor: pointer;
+        color:#fff;
+        border-radius: 5px;
+        margin-left: 11.25rem;
+    }
+    #btnSwap{
+        width: 17.5rem;
+        height: 2.188rem;
+        background-color:#212121;
+        cursor: pointer;
+        color:#fff;
+        border: darkseagreen 0px solid;
+        border-radius: 5px;
+    }
+    #result{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        border: none;
+        margin-left : 5rem; 
+    }
+    #convert-to{
+        margin-left:16.25rem;
+    }
+    #span-result{
+        margin-left:15rem;
+    }
+}
+
+
+
+@media(max-width:650px){
+
+    html{
+        font-size: 45%;
+    }
+    .container{
+        background-color:#8cd2e4;
+        width: 48.2rem;
+        height: 21.9rem;
+        margin: 3.125rem auto;
+        border-radius: 5px;
+        color:#020000;
+        padding: 1.875rem 3.75rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+    #txtNumber{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        border: none;
+    }
+    
+    #base-from{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+    }
+    #base-to{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        margin-left: 5rem;
+        
+    }
+    #btnConvert{
+        width: 17.5rem;
+        height: 2.188rem;
+        background-color:#212121;
+        cursor: pointer;
+        color:#fff;
+        border-radius: 5px;
+        margin-left: 11.25rem;
+    }
+    #btnSwap{
+        width: 17.5rem;
+        height: 2.188rem;
+        background-color:#212121;
+        cursor: pointer;
+        color:#fff;
+        border: darkseagreen 0px solid;
+        border-radius: 5px;
+    }
+    #result{
+        width: 17.5rem;
+        height: 2.188rem;
+        border-radius: 2px;
+        border: none;
+        margin-left : 5rem; 
+    }
+    #convert-to{
+        margin-left:16.25rem;
+    }
+    #span-result{
+        margin-left:15rem;
+    }
+}

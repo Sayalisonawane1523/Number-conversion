@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Number Base Converter</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Number Base converter</h2>
+        <br>
+        <div id="1">
+            <span>Convert from:</span><span id="convert-to">Convert to:</span><br>
+            <select name="base-from" id="base-from">
+                <option value="from-binary">Binary</option>
+                <option value="from-hexadecimal">Hexa Decimal</option>
+                <option value="from-octal">Octal</option>
+                <option value="from-decimal">Decimal</option>
+            </select>
+        
+            <select name="base-to" id="base-to">
+                <option value="to-binary">Binary</option>
+                <option value="to-hexadecimal">Hexa Decimal</option>
+                <option value="to-octal">Octal</option>
+                <option value="to-decimal">Decimal</option>
+            </select>
+        </div>
+        <br><br>
+        <div id="2">
+            <span>Enter a Number:</span><span id="span-result">Result:</span><br>
+            <input type="text" id="txtNumber" />
+            <input type="text" id="result" readonly  />
+        </div>       
+               
+        <br><br> 
+        <!-- <button id="btnSwap">Swap</button> -->
+        <button id="btnConvert">Convert</button>
+        <br><br>
+
+        <div>Created by Sayali Sonawane</div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
